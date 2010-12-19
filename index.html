@@ -1,1 +1,22 @@
-<h1>Hello Github!</h1>
+---
+layout: default
+title: Heedspin
+---
+
+{% for post in site.posts %}
+<div class="post_header group">
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <ul>
+    <li> {{post.date | date: "%B %d, %Y"}} </li>
+    <li> {{post.author}} </li>
+  </ul>
+</div>
+
+{{ post.content }}
+
+<hr />
+<br />
+<p><a href="{{ post.url }}#disqus_thread">Comments</a></p>
+
+{% endfor %}
+

@@ -1,0 +1,30 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Heedspin</title>
+    <link href="http://www.heedsipn.com/atom.xml" rel="self"/>
+    <link href="http://www.heedspin.com/"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://www.heedspin.com/</id>
+    
+    {% for post in site.posts %}
+    <entry>
+        <title>{{ post.title | h }}</title>
+        {% comment %}
+        {% for category in post.categories %}
+        <category term="{{category}}" scheme="http://www.sixapart.com/ns/types#tag" />
+        {% endfor %}
+        {% endcomment %}
+        <link href="http://www.heedspin.com{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>www.heedspin.com:{{ post.id }}</id>
+        <content type="html">{{ post.content | h}}</content>
+        <author>
+            <name>{{post.author_name}}</name>
+            <uri>{{post.author_uri}}</uri>
+        </author>
+    </entry>
+    {% endfor %}
+</feed>

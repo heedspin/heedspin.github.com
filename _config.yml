@@ -1,0 +1,4 @@
+pygments: true
+
+# This one is causing death for me:
+# auto: true
