@@ -117,6 +117,15 @@ div#content-footnotes {
 	margin: 10px 0 0 0;
 	color: #fff;
 	}
+	
+#header a:link, #header a:visited {
+	color: #ffffff;
+	text-decoration: none;
+	}
+#header a:hover, #header a:active {
+	color: #ffffff;
+	text-decoration: none;
+	}		
 
 #header .search {
 	position: absolute;
