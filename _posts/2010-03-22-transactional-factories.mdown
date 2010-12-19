@@ -5,6 +5,7 @@ author: Tim Harrison
 categories: [testing]
 topics: []
 published: true
+description: Using nested database transactions to allow efficient programmatic initialization of ruby unit test data.
 ---
 
 Transactional-factories is a ruby gem that I created to help speed up my tests.  It uses nested database transactions to allow efficient, programmatic initialization of test data.  In short, it gives each test case a class-level setup callback that is invoked only once.

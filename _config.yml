@@ -2,3 +2,5 @@ pygments: true
 
 # This one is causing death for me:
 # auto: true
+
+description: A technical blog on programming in ruby.
