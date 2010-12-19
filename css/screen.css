@@ -427,7 +427,7 @@ div#content-footnotes {
 #main .modules .mod {
 	width: 230px;
 	background-color: #5091be;
-	margin: 0;
+	margin: 0 0 50px 0;
 	padding: 30px;
 	border: 1px solid #ccdc08;
 	}

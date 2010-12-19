@@ -65,6 +65,15 @@
 					<a href="http://github.com/heedspin">Github Code Here</a>
         </p>
       </div>
+
+      {% if page.mentions %}
+      <div class="mod">
+        <h2>Mentions:</h2>
+        {% for mention in page.mentions %}
+        <p>{{ mention }}</p>
+        {% endfor %}
+      </div>
+      {% endif %}
       
       {% comment %}
       <div class="mod">
@@ -104,9 +113,7 @@
       </div>
       {% endif %}
       {% endcomment %}
-    </div>
-    
-    <!-- modules end -->
+    </div><!-- modules end -->
     
   </div>
   <!-- MAIN end -->
