@@ -20,7 +20,7 @@ body {
 	}
 
 a:link, a:visited {
-	color: #317b9e;
+	color: #0e4968;
 	text-decoration: none;
 	}
 a:hover, a:active {
@@ -422,13 +422,13 @@ div#content-footnotes {
 	width: 300px;
 	}
 #main .modules p { 
-	margin-top: 15px;
+	margin-top: 10px;
 	}
 #main .modules .mod {
 	width: 230px;
 	background-color: #5091be;
 	margin: 0 0 50px 0;
-	padding: 30px;
+	padding: 20px 30px;
 	border: 1px solid #ccdc08;
 	}
 
@@ -509,7 +509,9 @@ div#content-footnotes {
 	text-decoration: none;
 	}	
 
-
+.modules .links {
+	background: url(../images/pointing-right.png) no-repeat left 1px;
+}
 	
 /* uniqe page
 -------------------------------------------------------------------- */
@@ -598,7 +600,7 @@ table.data tr.even {
 }
 
 #main .content .person-info p {
-  margin: 0 0 0 0;
+  margin: 10px 0 0 0;
   padding: 0 0 0 0;
 }
 

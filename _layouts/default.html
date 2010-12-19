@@ -59,18 +59,14 @@
       <div class="mod">
         <h2>Welcome!</h2>
         <p>
-					Blog about Ruby.  Someone build me a logo, please!
+					Welcome to my blog about programming and ruby.  I intend to post more soon...
 				</p>
-				<p>
-					<a href="http://github.com/heedspin">Github Code Here</a>
-        </p>
       </div>
 
-      {% if page.mentions %}
-      <div class="mod">
-        <h2>Mentions:</h2>
-        {% for mention in page.mentions %}
-        <p>{{ mention }}</p>
+      {% if page.links %}
+      <div class="mod links">
+        {% for link in page.links %}
+        <p>{{ link }}</p>
         {% endfor %}
       </div>
       {% endif %}

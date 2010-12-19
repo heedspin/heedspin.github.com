@@ -6,8 +6,9 @@ categories: [testing]
 topics: []
 published: true
 description: Using nested database transactions to allow efficient programmatic initialization of ruby unit test data.
-mentions:
+links:
 - Russ Olsen and David Block give a short description of transactional-factories in their <a href="http://ruby5.envylabs.com/episodes/122-episode-120-october-15th-2010/stories/1051-transactional-factories">Episode 120 on Ruby5</a>
+- <a href="https://github.com/heedspin/transactional-factories">View the source on github</a>
 ---
 
 Transactional-factories is a ruby gem that I created to help speed up my tests.  It uses nested database transactions to allow efficient, programmatic initialization of test data.  In short, it gives each test case a class-level setup callback that is invoked only once.
