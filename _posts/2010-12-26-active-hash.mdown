@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Active Hash
+title: ActiveHash and SuperEnum!
 author: Tim Harrison
 published: true
-description:
+description: Ruby ActiveHash gem extended to make the enumerations a little more readable.
 links:
 - <a href="https://github.com/zilkey/active_hash">Active Hash on Github</a>
 ---
