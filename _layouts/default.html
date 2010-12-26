@@ -59,8 +59,13 @@
       <div class="mod">
         <h2>Welcome!</h2>
         <p>
-					Welcome to my blog about programming and ruby.  I intend to post more soon...
+					Welcome to my blog about programming and ruby. 
 				</p>
+				{% for post in site.posts %}
+          <p>
+						<a href="{{post.url}}">{{ post.title }}</a>
+					</p>
+				{% endfor %}
       </div>
 
       {% if page.links %}
