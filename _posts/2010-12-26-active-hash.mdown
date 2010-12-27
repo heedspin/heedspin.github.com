@@ -3,12 +3,12 @@ layout: post
 title: ActiveHash and SuperEnum!
 author: Tim Harrison
 published: true
-description: Ruby ActiveHash gem extended to make the enumerations a little more readable.
+description: Ruby ActiveHash gem extended to make the enumerations more readable.
 links:
 - <a href="https://github.com/zilkey/active_hash">Active Hash on Github</a>
 ---
 
-Jeff Dean's <a href="https://github.com/zilkey/active_hash">ActiveHash</a> is a great gem for status-type associations.  In this post I show how I extend ActiveHash it to improve readability just a little bit.
+Jeff Dean's <a href="https://github.com/zilkey/active_hash">ActiveHash</a> is a great gem for status-type associations.  In this post I show how I extend ActiveHash to improve readability.
 
 A NewsItem model might belong to Status to indicate values like Published, Draft, and Deleted.  ActiveHash lets you do ActiveRecord type associations, but without having to hit the database.
 
