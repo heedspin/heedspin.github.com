@@ -6,8 +6,9 @@ author: Tim Harrison
 published: true
 hidden: true
 links:
-- <a href="http://mmonit.com/monit/">Monit</a>
-- <a href="https://github.com/tobi/delayed_job">Delayed_Job</a>
+- <a href="https://github.com/peregrinator">Bob Burbach / peregrinator</a> wrote the capistrano recipe.
+- <a href="http://mmonit.com/monit/">monit</a>
+- <a href="https://github.com/tobi/delayed_job">delayed_job</a>
 ---
 
 I use <a href="http://mmonit.com/monit/">Monit</a> to keep <a href="https://github.com/tobi/delayed_job">delayed_job</a> running.  Getting monit to start and stop delayed_job is a giant pain, mostly because of environment problems.  In this post I explain how I make it work.
