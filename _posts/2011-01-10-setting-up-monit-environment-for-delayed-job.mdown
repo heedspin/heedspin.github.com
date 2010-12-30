@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Setting up monit's environment to start and stop delayed_job
+description: Getting monit to start and stop delayed_job is a giant pain, mostly because of environment problems.  In this post I explain how I make it work.
 author: Tim Harrison
 published: true
 hidden: true
