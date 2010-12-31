@@ -5,6 +5,9 @@ author: Tim Harrison
 categories: [testing]
 topics: []
 published: true
+homepage: false
+sidebar: true
+feed: true
 description: Using nested database transactions to allow efficient programmatic initialization of ruby unit test data.
 links:
 - Russ Olsen and David Block give a short description of transactional-factories in their <a href="http://ruby5.envylabs.com/episodes/122-episode-120-october-15th-2010/stories/1051-transactional-factories">Episode 120 on Ruby5</a>
