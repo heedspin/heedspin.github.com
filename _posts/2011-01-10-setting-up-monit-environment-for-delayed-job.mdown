@@ -22,10 +22,10 @@ First off, install monit.  It's pretty easy.  But remember to set startup=1 in /
 To tell monit how to start and stop delayed_job, I create /etc/monit.d/check_process_delayed_job with the contents below.  Check monit docs for details around my alert and restart settings.
 
 {% highlight bash %}
-check process myapp_delayed_job with pidfile /var/www/apps/myapp/current/tmp/pids/myapp_delayed_job.pid
-  start program = "/bin/bash /var/www/apps/myapp/current/script/monit_delayed_job.sh start"
+check process myapp_delayed_job with pidfile /path/to/myapp/tmp/pids/myapp_delayed_job.pid
+  start program = "/bin/bash /path/to/myapp/script/monit_delayed_job.sh start"
     as uid wei and gid wei
-  stop program =  "/bin/bash /var/www/apps/myapp/current/script/monit_delayed_job.sh stop"
+  stop program =  "/bin/bash /path/to/myapp/script/monit_delayed_job.sh stop"
     as uid wei and gid wei
   if cpu > 60% for 2 cycles then alert
   if cpu > 80% for 5 cycles then restart
@@ -128,6 +128,25 @@ namespace :delayed_job do
   set :use_monit_for_delayed_job, true
   set :monit_service_name, 'myapp_delayed_job'
 end
+{% endhighlight %}
+
+## Logrotate
+
+Rotating logs is fun.  Do it.  Here's my /etc/logrotate.d/myapp file.  As you can see I'm using the "restart" approach, which means I restart my web app and delayed job after rotating the files.  There are cooler copy and truncate approaches that I should probably be using (that's your cue to leave a comment).
+
+{% highlight bash %}
+/path/to/myapp/log/*.log {
+  weekly
+  missingok
+  rotate 100
+  compress
+  delaycompress
+  sharedscripts
+  postrotate
+    touch /path/to/myapp/tmp/restart.txt
+    /path/to/myapp/script/monit_delayed_job.sh restart
+  endscript
+}
 {% endhighlight %}
 
 ## Victory
