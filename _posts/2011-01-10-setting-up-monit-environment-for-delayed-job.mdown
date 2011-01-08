@@ -4,9 +4,9 @@ title: Setting up monit's environment to start and stop delayed_job
 description: Getting monit to start and stop delayed_job is a giant pain, mostly because of environment problems.  In this post I explain how I make it work.
 author: Tim Harrison
 published: true
-homepage: false
-sidebar: false
-feed: false
+homepage: true
+sidebar: true
+feed: true
 links:
 - <a href="https://github.com/peregrinator">Bob Burbach / peregrinator</a> wrote the capistrano recipe.
 - <a href="http://mmonit.com/monit/">monit</a>
@@ -132,7 +132,7 @@ end
 
 ## Logrotate
 
-Rotating logs is fun.  Do it.  Here's my /etc/logrotate.d/myapp file.  As you can see I'm using the "restart" approach, which means I restart my web app and delayed job after rotating the files.  There are cooler copy and truncate approaches that I should probably be using (that's your cue to leave a comment).
+Rotating logs is fun.  Do it.  Here's my /etc/logrotate.d/myapp file.  
 
 {% highlight bash %}
 /path/to/myapp/log/*.log {
@@ -140,12 +140,9 @@ Rotating logs is fun.  Do it.  Here's my /etc/logrotate.d/myapp file.  As you ca
   missingok
   rotate 100
   compress
+	copytruncate
   delaycompress
   sharedscripts
-  postrotate
-    touch /path/to/myapp/tmp/restart.txt
-    /path/to/myapp/script/monit_delayed_job.sh restart
-  endscript
 }
 {% endhighlight %}
 

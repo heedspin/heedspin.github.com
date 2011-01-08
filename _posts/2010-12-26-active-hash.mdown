@@ -3,7 +3,7 @@ layout: post
 title: ActiveHash and SuperEnum!
 author: Tim Harrison
 published: true
-homepage: true
+homepage: false
 sidebar: true
 feed: true
 description: Ruby ActiveHash gem extended to make the enumerations more readable.
