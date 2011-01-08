@@ -5,3 +5,4 @@ layout: nil
 #
 User-agent: *
 Allow: /
+Sitemap: http://www.heedspin.com/sitemap.xml
