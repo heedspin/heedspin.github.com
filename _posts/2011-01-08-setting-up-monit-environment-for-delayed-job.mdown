@@ -140,7 +140,7 @@ Rotating logs is fun.  Do it.  Here's my /etc/logrotate.d/myapp file.
   missingok
   rotate 100
   compress
-	copytruncate
+  copytruncate
   delaycompress
   sharedscripts
 }
