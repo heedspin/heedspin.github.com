@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configuring delayed_job logging
+title: Configuring delayed_job Logging
 description: Here's how I configure delayed_job to log to a separate file
 author: Tim Harrison
 published: true
