@@ -70,13 +70,15 @@
 				{% endfor %}
       </div>
 
-      {% if page.links %}
       <div class="mod links">
-        {% for link in page.links %}
+				{% for post in site.posts %}
+				{% if post.homepage == true %}
+        {% for link in post.links %}
         <p>{{ link }}</p>
         {% endfor %}
+				{% endif %}
+				{% endfor %}
       </div>
-      {% endif %}
       
       {% comment %}
       <div class="mod">
