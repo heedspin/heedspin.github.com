@@ -21,6 +21,19 @@ links:
 
 <hr />
 <br />
-<p><a href="{{ post.url }}#disqus_thread">Comments</a></p>
+<p><a href="http://www.heedspin.com{{post.url}}#disqus_thread">Comments</a></p>
 {% endif %}
 {% endfor %}
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'heedspin';
+    var disqus_identifier = 'www.heedspin.com:{{ page.id }}';
+    var disqus_url = 'http://www.heedspin.com{{ page.url }}';
+    (function() {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
