@@ -1,15 +1,21 @@
 
-Dependencies:
- 	sudo gem install mojombo-jekyll (or just jekyll?)
-
+## Install
+ 	gem install jekyll
 	brew install python	
- 	- old: sudo port install python25 py25-pygments
-
-	sudo gem install less 
+	
+	gem install less 
 	- (for css stuff)
 	- [local] $ rake -f _tasks/build.rb
 
 	easy_install Pygments
+
+## Running
+
+  jekyll
+  ==> generates html
+
+  jekyll --server
+  ==> runs webrick
 
 Links:
 
