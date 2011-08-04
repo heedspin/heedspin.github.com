@@ -71,13 +71,9 @@
       </div>
 
       <div class="mod links">
-				{% for post in site.posts %}
-				{% if post.homepage == true %}
-        {% for link in post.links %}
+        {% for link in page.links %}
         <p>{{ link }}</p>
         {% endfor %}
-				{% endif %}
-				{% endfor %}
       </div>
       
       {% comment %}
