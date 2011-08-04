@@ -4,7 +4,7 @@ title: Configuring delayed_job Logging
 description: Here's how I configure delayed_job to log to a separate file
 author: Tim Harrison
 published: true
-homepage: true
+homepage: false
 sidebar: true
 feed: true
 links:
@@ -50,5 +50,3 @@ end
 
  * Is there a better way to detect that I'm running in the delayed_job daemon?
  * Is there a better logger than the BufferedLogger and auto_flushing=1?
-
-<div style="display: none">DMTA8FYHZ5W9</div>

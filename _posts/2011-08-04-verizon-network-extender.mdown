@@ -1,0 +1,29 @@
+---
+layout: post
+title: Verizon Network Extender Doesn't Work 
+description: I bought the Samsung SCS-26UC4 to get a Verizon signal at home.  It doesn't work.
+author: Tim Harrison
+published: true
+homepage: true
+sidebar: true
+feed: true
+links:
+- First set of <a href="http://reviews.us.samsung.com/7463/SCS-26UC4/samsung-verizon-network-extender-base-station-reviews/reviews.htm">Samsung SCS-26UC4 Reviews on Samsung site</a>
+- Second set of <a href="http://www.samsung.com/us/mobile/cell-phones/SCS-26UC4-reviews">Samsung SCS-26UC4 Reviews on Samsung site</a>
+---
+
+I purchased the Samsung SCS-26UC4 in an attempt to get a Verizon signal at home.  But drats, I just can't get it to work.  So with this post I cast my vote into the great google expanse.  Boo Verizon.  Boo Samsung.  Your product doesn't work for me.  Can you hear me now?  No...
+
+<img src="/images/verizon-net-extender/samsung-scs-26uc4-zoom.jpg" width="630" />
+
+## No GPS signal
+
+The problem is that my device can't get a GPS signal.  In short, these network extenders need a GPS signal for 911 calls.  We live in Raleigh, NC.  My droid, iphone, and ipad all know exactly where I am.  The Samsung SCS-26UC4 does not.  I used the external antenna.  Put that thing out every window.  Put it on the roof.  Wrapped it around a tree.  Whispered sweet nothings to it.  No luck.  I even took that blasted box to work (near the airport) and tried there.  Nope.
+
+So really?  No GPS signal?  I kind of feel like it's not really trying. So I vote no. The Samsung SCS-26UC4 is a P.O.S..  
+
+## Any ideas welcome
+
+If you have any ideas on how to get a GPS signal, please let me know...
+
+<img src="/images/verizon-net-extender/samsung-scs-26uc4.jpg" width="630" />
