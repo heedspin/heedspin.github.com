@@ -4,7 +4,7 @@ title: Verizon Network Extender Doesn't Work
 description: I bought the Samsung SCS-26UC4 to get a Verizon signal at home.  It doesn't work.
 author: Tim Harrison
 published: true
-homepage: true
+homepage: false
 sidebar: true
 feed: true
 links:
