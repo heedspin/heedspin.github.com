@@ -12,7 +12,7 @@ links:
 ---
 
 <p>
-<a href="lxdinc.com">We (at lxd)</a> are using google apps for business.  When someone leaves the company, we'd like to archive all their emails so that we can access them later without paying google $50/year per user. It's pretty easy with Thunderbird. In short, we just download all the user's emails and zip up the Thunderbird profile directory.  In long...
+<a href="http://lxdinc.com">We (at lxd)</a> are using google apps for business.  When someone leaves the company, we'd like to archive all their emails so that we can access them later without paying google $50/year per user. It's pretty easy with Thunderbird. In short, we just download all the user's emails and zip up the Thunderbird profile directory.  In long...
 </p>
 
 ### Change password to archive_user@mycompany.com
@@ -51,7 +51,7 @@ BTW, there's a mozbackup program out there that makes backing up a profile super
 
 ### Delete the old accounts
 
-I recommend actually verifying that you have access to the archived emails before deleting the google user.  Once you delete the archive_user@mycompany.com account, any Thunderbirds will start complaining about failed authentication.  Just go into Thunderbird's server settings and uncheck everything.  That'll keep it from trying to connect to an account that doesn't exist.
+Before deleting a user I recommend verifying that you have access to the archived emails. Also, you'll want to <a href="http://www.google.com/support/a/bin/answer.py?answer=1247799">transfer ownership of any google docs</a> and <a href="http://www.google.com/support/calendar/bin/answer.py?answer=37082">share calendars</a>.  Once you delete the archive_user@mycompany.com account, any Thunderbirds will start complaining about failed authentication.  Just go into Thunderbird's server settings and uncheck everything.  That'll keep it from trying to connect to an account that doesn't exist.
 
 ### Will My Archive Work 10 Years From Now?
 
