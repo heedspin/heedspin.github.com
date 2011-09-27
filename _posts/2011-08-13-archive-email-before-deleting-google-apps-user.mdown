@@ -4,7 +4,7 @@ title: Archive Email Before Deleting a Google Apps User
 description: Before deleting a google apps user, download emails with Thunderbird and archive the profile directory.
 author: Tim Harrison
 published: true
-homepage: true
+homepage: false
 sidebar: true
 feed: true
 links:
