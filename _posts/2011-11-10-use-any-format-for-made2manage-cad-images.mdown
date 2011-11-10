@@ -38,6 +38,6 @@ We've created a little start.bat script that will launch whatever we want.  You 
 	<img src="/images/m2m-cad-images/start-bat.png" />
 </p>
 
-Yup.  It's that awesome.  I'm no windows expert, but I think it's the equivalent of just double-clicking the file.  Let windows figure out what app to launch to view your file.  
+Yup.  It's that awesome.  The entire file contents are "%1" without the quotes.  I'm no windows expert, but I think it's the equivalent of just double-clicking the file.  Let windows figure out what app to launch to view your file.  
 
 That's all.  I hope this helps.
