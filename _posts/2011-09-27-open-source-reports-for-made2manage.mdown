@@ -4,7 +4,7 @@ title: "M2MHub: Open Source Reports For Made2Manage"
 description: M2MHub is a basic web-based view of the Made2Manage ERP database. It's open source and looking for collaborators.
 author: Tim Harrison
 published: true
-homepage: true
+homepage: false
 sidebar: true
 feed: true
 links:
