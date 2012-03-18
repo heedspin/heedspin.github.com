@@ -13,6 +13,14 @@ links:
 - <a href="https://github.com/tobi/delayed_job">delayed_job</a>
 ---
 
+<div class="breakout mod">
+	<p>Update March 18, 2012:</p>
+	<h3>Using Rails 3?</h3>
+	<p>I'm using Rails 3.1.3.  To get DJ working I've had to stick with delayed_job 2.1.4.  The 3.0.1 build results in "undefined method `before_fork' for nil:NilClass".  If you google around enough you'll find the reasons why.  If you're like me and have other things to do, just stick with 2.1.4 for now.</p>
+	<p>Thanks <a href="http://www.jonathandean.com/2011/08/delayed_job-in-rails-3/">jonathan dean</a>.</p>
+</div>
+
+
 I use <a href="http://mmonit.com/monit/">Monit</a> to keep <a href="https://github.com/tobi/delayed_job">delayed_job</a> running.  Getting monit to start and stop delayed_job is a giant pain, mostly because of environment problems.  In this post I explain how I make it work.
 
 ## Monit
