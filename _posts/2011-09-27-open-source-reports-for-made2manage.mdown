@@ -21,15 +21,13 @@ links:
 I work with a few companies that use the Made2Manage ERP system. In short, building custom reports in Made2Manage (M2M) is difficult. As a software engineer with a lot of web development experience, I find it discouraging how difficult custom reports are for me.  So, after struggling to master M2M, I've finally given up and started writing simple web-based interfaces to the M2M database.  In the hopes of finding others who might be going down this road, I'm providing <a href="https://github.com/heedspin/m2mhub">m2mhub</a> as open source. Though it is not a turn-key application, I would be interested in collaborating with others to make it more useful. 
 
 <div class="breakout mod">
-	<h3>Join the m2mhub google group!</h3>
+	<h3>The Made2Manage Group on LinkedIn</h3>
   <p>
-		I created the m2mhub google group to provide a forum for anyone to collaborate on extra-m2m approaches to making Made2Manage easy2use. Har har... Even if you're not a developer, go ahead and sign up.
+		I had earlier created an m2mhub google group to provide a forum for anyone to collaborate. However, I've learned that the <a href="http://www.linkedin.com/groups/Made2Manage-1793953">Made2Manage group on LinkedIn</a> has more traffic than anywhere else. With less that 2,000 companies using M2M, the world is not big enough for more than one forum. So please, join the Made2Manage group on linked in.
 	</p>
 
 	<p>
-		<a href="http://groups.google.com/group/m2mhub?hl=en">
-	  <img src="http://groups.google.com/intl/en/images/logos/groups_logo_sm.gif" height="30" width="140" alt="Google Groups" />
-	  Visit this group</a>
+		<a href="http://www.linkedin.com/groups/Made2Manage-1793953">http://www.linkedin.com/groups/Made2Manage-1793953</a>
 	</p>	
 </div>
 
