@@ -60,7 +60,7 @@ Probably my favorite part of the whole event was hanging out with the Secret Ser
 They have a plan for everything from a power outage to a chemical attack. They bomb-swept this giant building several times. Every nook and cranny was inspected. As they explained to the building manager: "If we find a locked door, we're breaking it down." Once all the rooms were swept, if you had to enter a room that would be used by the Representative, you were escorted.
 
 <div class="breakout mod">
-	<p>While doing a tour of the building, one of the agents pointed at this sign and laughed me:</p>
+	<p>While doing a tour of the building, one of the agents pointed at this sign and laughed at me:</p>
 	<p>
 		<img src="/images/pdr/concealed.png" width="500"/>
 		<span class="caption">Unless you're the SS!</span>
