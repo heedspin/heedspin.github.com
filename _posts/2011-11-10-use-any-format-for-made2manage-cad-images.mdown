@@ -4,7 +4,7 @@ title: "Using Any File Format for the Made2Manage CAD Images"
 description: Made2Manage lets you attach CAD drawings to the item master. This trick lets you attach any file format to the item master.
 author: Tim Harrison
 published: true
-homepage: true
+homepage: false
 sidebar: true
 feed: true
 links:
