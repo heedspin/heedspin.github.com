@@ -67,7 +67,7 @@ They have a plan for everything from a power outage to a chemical attack. They b
 	</p>
 </div>
 
-I also learned that the Secret Service's ("primary investigative mission is to safeguard the payment and financial systems of the United States")[http://www.secretservice.gov/investigations.shtml]. One agent said his office had a record number of fraud arrests this year. I had no idea!
+I also learned that the Secret Service's ["primary investigative mission is to safeguard the payment and financial systems of the United States"](http://www.secretservice.gov/investigations.shtml). One agent said his office had a record number of fraud arrests this year. I had no idea!
 
 Maybe it's a coincidence, but we started having intermittent network issues two days before the event. All the problems stopped after the event and have not reoccurred. Maybe it's a coincidence. Or maybe those dudes have some [serious computer hacking skills](http://www.ncfi.usss.gov/).
 
