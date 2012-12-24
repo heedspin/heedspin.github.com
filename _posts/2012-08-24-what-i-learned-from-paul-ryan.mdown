@@ -4,7 +4,7 @@ title: "What I learned from Paul Ryan"
 description: We hosted a rally for VP Candidate, Paul Ryan. Here's what I learned.
 author: Tim Harrison
 published: true
-homepage: true
+homepage: false
 sidebar: true
 feed: true
 links:

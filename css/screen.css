@@ -20,11 +20,11 @@ body {
 	}
 
 a:link, a:visited {
-	color: #0e4968;
+	color: #135EFC;
 	text-decoration: none;
 	}
 a:hover, a:active {
-	color: #104C68;
+	color: #2AAC1E;
 	text-decoration: none;
 	}	
 
@@ -634,4 +634,10 @@ table.data tr.even {
 .addthis_toolbox {
   float: right;
   margin: 0 50px 10px;
+}
+
+/* Squash annoying metacafe add
+------------------------------------------------------------------- */
+.silence_metacafe div {
+	display:none;
 }
