@@ -4,11 +4,11 @@
 <head>
   <title>{{page.title}}</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="google-site-verification" content="reOR7wwwpxWBpKLVVb27UKG_34WoURKu-FxqZuzTV_Y" />
+  <meta name="google-site-verification" content="reOR7wwwpxWBpKLVVb27UKG_34WoURKu-FxqZuzTV_Y" />
   <meta name="author" content="heedspin" />
-	{% if page.description %}
-	<meta name="description" content="{{page.description}}" />
-	{% endif %}
+  {% if page.description %}
+  <meta name="description" content="{{page.description}}" />
+  {% endif %}
   <link href="http://feeds.feedburner.com/heedspin" rel="alternate" title="Heedspin Blog" type="application/atom+xml" />
   
   <!-- Main CSS -->
@@ -59,15 +59,15 @@
       <div class="mod">
         <h2>Welcome!</h2>
         <p>
-					A blog about ruby programming and anything else.
-				</p>
-				{% for post in site.posts %}
-				{% if post.sidebar == true %}
+          A blog about ruby programming and anything else.
+        </p>
+        {% for post in site.posts %}
+        {% if post.sidebar == true %}
           <p>
-						<a href="{{post.url}}">{{ post.title }}</a>
-					</p>
-				{% endif %}
-				{% endfor %}
+            <a href="{{post.url}}">{{ post.title }}</a>
+          </p>
+        {% endif %}
+        {% endfor %}
       </div>
 
       <div class="mod links">
@@ -124,15 +124,15 @@
   <div id="footer">
   </div>
   <!-- FOOTER end -->
-	<script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-20323026-1']);
-	  _gaq.push(['_trackPageview']);
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20323026-1']);
+    _gaq.push(['_trackPageview']);
 
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script>
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </body>
