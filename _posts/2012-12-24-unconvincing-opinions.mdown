@@ -25,11 +25,8 @@ But I'd like to suggest that, in addition to the other great responsibilities in
 
 Though I never saw the 2006 movie *The Last King of Scotland*, I never forgot this scene from one of the previews. Just knowing the truth is worthless! It's your job to be persuasive!
 
-<div class="breakout mod silence_metacafe">
-	<p>
-		<embed flashVars="playerVars=autoPlay=no" src="http://www.metacafe.com/fplayer/5153170/but_you_did_not_persuade_me.swf" width="540" height="304" wmode="transparent" allowFullScreen="true" allowScriptAccess="always" name="Metacafe_5153170" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed><div style="font-size:12px;"><a href="http://www.metacafe.com/watch/5153170/but_you_did_not_persuade_me/">But You Did Not Persuade Me!</a> - <a href="http://www.metacafe.com/">For more funny movies, click here</a></div>
-		<span class="caption">Watch the first 40 seconds...</span>
-	</p>
+<div class="breakout mod">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5VMX6zCXHWA" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## How To Persuade
