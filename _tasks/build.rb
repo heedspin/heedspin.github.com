@@ -19,7 +19,7 @@ namespace :site do
   desc "Build static files from jekyll files"
   task :jekyll do
     puts "* Building static files from jekyll files"
-    `jekyll`
+    `jekyll build`
   end
   
   desc "Build site (less and jekyll)"
